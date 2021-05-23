@@ -17,10 +17,11 @@ Enter a number for the corresponding menu option.
 
 ### Technology Used
 
--Java
--Methods
--Recursive Functions
--Objects with:
-  *Private and Static Fields
-  *Multiple Constructors
-  *Getters and Setters
+- Java
+- Methods
+- Recursive Functions
+- Arrays
+- Objects with:
+- Private and Static Fields
+- Multiple Constructors
+- Getter and Setter Methods
