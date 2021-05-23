@@ -6,7 +6,7 @@ public class FoodTruckApp {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		System.out.println("How many food trucks reivews would you" + " like to enter? (Up to 5)");
+		System.out.println("How many food trucks reviews would you" + " like to enter? (Up to 5)");
 		int numTrucks = input.nextInt();
 		input.nextLine();
 		// Require # of trucks to be between 0 and 5
@@ -38,16 +38,7 @@ public class FoodTruckApp {
 
 			System.out.println("Enter the type of food for the truck: ");
 			String foodType = input.nextLine();
-
-//			System.out.println("How many stars would you give the food truck? ");
-//			System.out.println("Stars must be between 0.0 and 5.0: ");
-//			double rating = input.nextDouble();
-//			input.nextLine();
-//			if(rating > 5 || rating < 0) {
-//				System.out.println("Rating must be between 0 and 5 stars.");
-//				System.out.println("Please try again.");
-//				
-//			}
+			
 			double rating = ratingCheck(input);
 
 			truckArr[i] = new FoodTruck(name, foodType, rating);
